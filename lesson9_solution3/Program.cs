@@ -24,7 +24,7 @@ namespace lesson9_solution3
         {
             int[] array = { 0, 1, 34, 3, 4, 5, 6 };
 
-            Console.WriteLine("подзадача 3:");
+            Console.WriteLine("подзадача 1:");
             foreach (int i in MyReverse(array))
             {
                 Console.Write(i + " ");
