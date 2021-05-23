@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lesson1_solution2
+namespace basic_lesson1_solution2
 {
     class Rectangle
     {
