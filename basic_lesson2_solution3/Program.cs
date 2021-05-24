@@ -18,7 +18,7 @@ namespace basic_lesson2_solution3
     {
         static void Main(string[] args)
         {
-            Employer employer = new Employer("sd", "sdsd");
+            Employer employer = new Employer("ивнов", "иван");
             employer.Show();
         }
     }
