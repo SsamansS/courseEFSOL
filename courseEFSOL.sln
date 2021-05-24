@@ -43,7 +43,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "basic_lesson2_solution4", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lesson3", "lesson3", "{7C6D2457-FFF1-4E71-A2D5-A394473307CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "basic_lesson3_solution3", "basic_lesson3_solution3\basic_lesson3_solution3.csproj", "{31585EDD-8AF7-489A-B312-C30C9C0DDC8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "basic_lesson3_solution3", "basic_lesson3_solution3\basic_lesson3_solution3.csproj", "{31585EDD-8AF7-489A-B312-C30C9C0DDC8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "basic_lesson3_solution4", "basic_lesson3_solution4\basic_lesson3_solution4.csproj", "{406BE653-AC22-4219-A27D-8C28E398B729}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,6 +105,10 @@ Global
 		{31585EDD-8AF7-489A-B312-C30C9C0DDC8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31585EDD-8AF7-489A-B312-C30C9C0DDC8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31585EDD-8AF7-489A-B312-C30C9C0DDC8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{406BE653-AC22-4219-A27D-8C28E398B729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406BE653-AC22-4219-A27D-8C28E398B729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406BE653-AC22-4219-A27D-8C28E398B729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406BE653-AC22-4219-A27D-8C28E398B729}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -126,6 +132,7 @@ Global
 		{4A36F808-7C97-4787-98D9-007AC5F4335E} = {865D0D54-EA6A-40E1-A7CC-8ADA0D68BCBE}
 		{7C6D2457-FFF1-4E71-A2D5-A394473307CA} = {F699A389-3E8C-4E06-9862-345BDC9581D7}
 		{31585EDD-8AF7-489A-B312-C30C9C0DDC8C} = {7C6D2457-FFF1-4E71-A2D5-A394473307CA}
+		{406BE653-AC22-4219-A27D-8C28E398B729} = {7C6D2457-FFF1-4E71-A2D5-A394473307CA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {406F16EE-D936-452F-8B2A-1F24DCEB93A4}
