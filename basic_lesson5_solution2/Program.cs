@@ -14,10 +14,20 @@ namespace basic_lesson5_solution2
     {
         static void Main(string[] args)
         {
-            ThisArray array = new ThisArray();
-            array[0] = 23;
-            array[1] = 21;
-            array[2] = -3;
+            ThisArray arr = new ThisArray(4);
+            //arr.array = new ThisArray(3);
+            arr[0] = 23;
+            arr[1] = 21;
+            arr[2] = -3;
+            /*for(int i = 0; i < arr.array.Length; i++)
+            {
+
+            }*/
+            foreach(int i in arr.Array)
+            {
+                Console.WriteLine(i);
+            }
+            Console.WriteLine(arr[0]);
         }
     }
 }
