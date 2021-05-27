@@ -14,20 +14,18 @@ namespace basic_lesson5_solution2
     {
         static void Main(string[] args)
         {
-            ThisArray arr = new ThisArray(4);
-            //arr.array = new ThisArray(3);
-            arr[0] = 23;
-            arr[1] = 21;
-            arr[2] = -3;
-            /*for(int i = 0; i < arr.array.Length; i++)
-            {
+            Console.Write("Задайте длину одномерного массива плз: ");
+            int n = int.Parse(Console.ReadLine());
 
-            }*/
-            foreach(int i in arr.Array)
+            ThisArray arr = new ThisArray(n);
+
+            Random random = new Random();
+            for (int i = 0; i < arr.Array.Length; i++)
             {
-                Console.WriteLine(i);
+                arr.Array[i] = random.Next();
             }
-            Console.WriteLine(arr[0]);
+
+            arr.Show();
         }
     }
 }

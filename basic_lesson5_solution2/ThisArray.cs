@@ -8,36 +8,69 @@ namespace basic_lesson5_solution2
 {
     class ThisArray
     {
-        static int n;
-        private int[] array = new int[3];
+        int[] array;
+        int MaxV;
+        int MinV;
+        double Sum = 0;
+        double ArithmeticMean;
+        List<int> OddNumbers = new List<int> { -1};
 
         public int[] Array { get => array; set => array = value; }
 
-        //public ThisArray(int n)
-        //{
-        //    this.n = n;
-        //}
-
-        public int this[int index]
-        {
-            get { return array[index]; }
-            set { array[index] = value; }
-        }
-
         public ThisArray(int nd)
         {
-            //n = nd;
-            Console.WriteLine(n);
+            int[] Array = new int[nd];
+            array = Array;
         }
-        public void Sortin()
+        //private void Initialization()
+        //{
+        //    Random random = new Random();
+        //    for (int i = 0; i < array.Length; i++)
+        //    {
+        //        array[i] = random.Next(1, 6);
+        //    }
+        //}
+
+        void Processing()
         {
-            //int[] arr = new int[];
-            //arr = Array.Sort(array, 0, array.Length - 1);
-            //foreach(int i in Array.Sort(array, 0, array.Length - 1))
+            MinV = array[0];
+            foreach (int item in array)
+            {
+                if (item % 2 != 0 && OddNumbers.Contains(item) == false)
+                    OddNumbers.Add(item);
+                if (item > MaxV)
+                    MaxV = item;
+                if (item < MinV)
+                    MinV = item;
+
+                Sum += item;
+            }
+            ArithmeticMean = Sum / array.Length;
         }
-        public int Len()
+
+        void ShowOddItems()
         {
-            return Array.Length;
+            Console.WriteLine("\nНечетные элементы массива:");
+            for (int i = 1; i < OddNumbers.Count; i++)
+            {
+                Console.Write($"{OddNumbers[i]}  ");
+            }
+        }
+
+        public void Show()
+        {
+            Processing();
+            Console.WriteLine("Ваш массив:");
+            foreach (int i in array)
+            {
+                Console.Write($"{i}  ");
+            }
+            Console.WriteLine(@$"
+Максимальный элемент: {MaxV}
+Минимальный элемент: {MinV}
+Сумма элементов: {Sum}
+Среднее арифметическое элементов: {ArithmeticMean}");
+            ShowOddItems();
         }
 
     }
