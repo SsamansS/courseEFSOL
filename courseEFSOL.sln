@@ -71,7 +71,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "basic_lesson9_solution2", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lesson10", "lesson10", "{E346A7D4-2CA9-4518-B001-C7646E041B45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "basic_lesson10_solution2", "basic_lesson10_solution2\basic_lesson10_solution2.csproj", "{58E04BD7-3EB9-4F59-9DA6-DB28B0DE040A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "basic_lesson10_solution2and4", "basic_lesson10_solution2\basic_lesson10_solution2and4.csproj", "{58E04BD7-3EB9-4F59-9DA6-DB28B0DE040A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
