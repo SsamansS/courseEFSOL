@@ -20,8 +20,10 @@ namespace basic_lesson9_solution3
             MyDelegate myDelegate = () => 
             {
                 Random random = new Random();
-                return random.Next(1,7);
+                return 31;// random.Next(1,7);
             };
+
+
 
             MyDelegate[] myDelegates = { myDelegate, myDelegate };
 
