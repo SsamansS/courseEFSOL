@@ -16,7 +16,7 @@ namespace basic_lesson1_solution3
     {
         static void Main(string[] args)
         {
-            Book book = new Book("Мир Софии");
+            Book book = new Book(" Мир Софии ");
             book.author = "Юстйен Гордер";
             book.content = @"...в конечном счете нечто должно было когда-то возникнуть из совершенной пустоты...
 София Амуннсен возвра...";
