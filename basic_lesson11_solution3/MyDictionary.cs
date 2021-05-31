@@ -24,22 +24,27 @@ namespace basic_lesson11_solution3
         public MyDictionary(int lenght)
         {
             this.Count = lenght;
-            this.keys = new List<TKey>(lenght);
-            this.values = new List<TValue>(lenght);
+            this.keys = new List<TKey>(Count);
+            this.values = new List<TValue>(Count);
         }
         public MyDictionary()
         {
             this.Count = 1;
-            this.keys = new List<TKey>(1);
-            this.values = new List<TValue>(1);
+            this.keys = new List<TKey>(Count);
+            this.values = new List<TValue>(Count);
         }
 
 
         public void Add(TKey key, TValue value)
         {
-            this.keys.Add(key);
-            this.values.Add(value);
-            this.Count = values.Count;
+            if (!keys.Contains(key))
+            {
+                this.keys.Add(key);
+                this.values.Add(value);
+                this.Count = values.Count;
+            }
+            else
+                Console.WriteLine("Ключи должны быть уникальными");
         }
 
         int LookForIndex(TKey key)
