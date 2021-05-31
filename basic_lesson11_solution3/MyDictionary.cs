@@ -12,12 +12,12 @@ namespace basic_lesson11_solution3
 
         List<TValue> values;
 
-        public int Count;
+        public int Count { get; private set; }
         public TValue this[TKey key]
         {
             get
             {
-                return values[LookForIndex(key)];
+                return values[LookingForIndex(key)];
             }
         }
 
@@ -47,7 +47,7 @@ namespace basic_lesson11_solution3
                 Console.WriteLine("Ключи должны быть уникальными");
         }
 
-        int LookForIndex(TKey key)
+        int LookingForIndex(TKey key)
         {
             int index = -1;
             for (int i = 0; i < Count; i++)
