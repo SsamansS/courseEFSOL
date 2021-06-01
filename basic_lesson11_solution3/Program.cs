@@ -19,7 +19,7 @@ namespace basic_lesson11_solution3
         {
             Dictionary<string, string> dsfs = new Dictionary<string, string>(4);
             dsfs.Add("key", "value");
-            Console.WriteLine(dsfs["keydf"]);
+            Console.WriteLine(dsfs["key"]);
             Console.WriteLine(dsfs.Count);
         }
     }

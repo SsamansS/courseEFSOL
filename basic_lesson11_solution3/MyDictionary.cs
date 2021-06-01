@@ -52,7 +52,7 @@ namespace basic_lesson11_solution3
             int index = -1;
             for (int i = 0; i < Count; i++)
             {
-                if ($"{this.keys[i]}" == $"{key}")
+                if (key.Equals(values[i]))
                     index = i;
             }
             
