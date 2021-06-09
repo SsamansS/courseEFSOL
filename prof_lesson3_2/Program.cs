@@ -24,9 +24,6 @@ namespace prof_lesson3_2
 
             string s = File.ReadAllText(path, Encoding.Default);
             Console.WriteLine(s);
-
-
-
         }
     }
 }

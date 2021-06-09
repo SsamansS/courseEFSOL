@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MyContacts>
+	<Contact>
+		<Name>Daniel</Name>
+		<TelephoneNumber>+996-700-010-020</TelephoneNumber>
+	</Contact>
+	<Contact>
+		<Name>Timur</Name>
+		<TelephoneNumber>+996-777-010-020</TelephoneNumber>
+	</Contact>
+</MyContacts>
