@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncP_lesson2_2", "AsyncP_lesson2_2\AsyncP_lesson2_2.csproj", "{B7EA3A98-8257-4290-A12C-6838475F1378}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncP_lesson2_3", "AsyncP_lesson2_3\AsyncP_lesson2_3.csproj", "{8609CBD9-DF35-43B6-8D80-F5EB652EA414}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncP_lesson2_3", "AsyncP_lesson2_3\AsyncP_lesson2_3.csproj", "{8609CBD9-DF35-43B6-8D80-F5EB652EA414}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncP_lesson2_4", "AsyncP_lesson2_4\AsyncP_lesson2_4.csproj", "{8760AF7E-5275-4571-A29C-E507D5079123}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncP_lesson2_4", "AsyncP_lesson2_4\AsyncP_lesson2_4.csproj", "{8760AF7E-5275-4571-A29C-E507D5079123}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncP_lesson3_2", "AsyncP_lesson3_2\AsyncP_lesson3_2.csproj", "{DFB42A08-1D95-461C-857D-556BEE6BCA97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{8760AF7E-5275-4571-A29C-E507D5079123}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8760AF7E-5275-4571-A29C-E507D5079123}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8760AF7E-5275-4571-A29C-E507D5079123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFB42A08-1D95-461C-857D-556BEE6BCA97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB42A08-1D95-461C-857D-556BEE6BCA97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB42A08-1D95-461C-857D-556BEE6BCA97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB42A08-1D95-461C-857D-556BEE6BCA97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
