@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NETcore_lesson4_2", "AS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NETcore_lesson5_2", "ASP.NETcore_lesson5_2\ASP.NETcore_lesson5_2.csproj", "{CF20A294-F2A1-453B-AAEA-AAE3D89244AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NETcore_lesson6_2", "ASP.NETcore_lesson6_2\ASP.NETcore_lesson6_2.csproj", "{085C04A9-CAAA-41F6-8162-BB2E56DC2469}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NETcore_lesson6_2", "ASP.NETcore_lesson6_2\ASP.NETcore_lesson6_2.csproj", "{085C04A9-CAAA-41F6-8162-BB2E56DC2469}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NETcore_lesson7_2", "ASP.NETcore_lesson7_2\ASP.NETcore_lesson7_2.csproj", "{53B29F86-FD29-4285-A262-20000CD9E60A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{085C04A9-CAAA-41F6-8162-BB2E56DC2469}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{085C04A9-CAAA-41F6-8162-BB2E56DC2469}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{085C04A9-CAAA-41F6-8162-BB2E56DC2469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53B29F86-FD29-4285-A262-20000CD9E60A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B29F86-FD29-4285-A262-20000CD9E60A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B29F86-FD29-4285-A262-20000CD9E60A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B29F86-FD29-4285-A262-20000CD9E60A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
