@@ -8,9 +8,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTML5andCSS3_lesson1", "HTM
 		Solution.html = Solution.html
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTML5andCSS3_lesson2", "HTML5andCSS3_lesson2", "{DB2A3B49-E8A4-41E8-AE18-24EA63187623}"
+	ProjectSection(SolutionItems) = preProject
+		HTML5andCSS3_lesson2\Solution1_img.html = HTML5andCSS3_lesson2\Solution1_img.html
+		Solution2_table.html = Solution2_table.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HW", "HW", "{74B95BC4-96B1-45B1-863E-94CEC5C0A344}"
+	ProjectSection(SolutionItems) = preProject
+		HTML5andCSS3_lesson2\HW\figure.jpg = HTML5andCSS3_lesson2\HW\figure.jpg
+		HTML5andCSS3_lesson2\HW\Table.png = HTML5andCSS3_lesson2\HW\Table.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{74B95BC4-96B1-45B1-863E-94CEC5C0A344} = {DB2A3B49-E8A4-41E8-AE18-24EA63187623}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {406F16EE-D936-452F-8B2A-1F24DCEB93A4}
