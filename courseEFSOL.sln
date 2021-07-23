@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lesson1", "lesson1", "{4875DD3E-FA20-4392-B892-DAE043E63F0F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTML5andCSS3_lesson1", "HTML5andCSS3_lesson1", "{4875DD3E-FA20-4392-B892-DAE043E63F0F}"
 	ProjectSection(SolutionItems) = preProject
 		Solution.html = Solution.html
 	EndProjectSection
