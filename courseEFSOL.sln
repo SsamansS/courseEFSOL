@@ -3,9 +3,42 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JSstarter_lesson2", "JSstarter_lesson2", "{3EE1FCBE-F00B-4CC1-9949-F678070D2A10}"
+	ProjectSection(SolutionItems) = preProject
+		01-task.html = 01-task.html
+		02-task.html = 02-task.html
+		03-task.html = 03-task.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D1A5199C-EEB9-4821-A38C-A0893609443C}"
+	ProjectSection(SolutionItems) = preProject
+		my-script.js = my-script.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JSstarter_lesson3", "JSstarter_lesson3", "{91C83DC7-6DD9-4872-B6D5-A743F5083047}"
+	ProjectSection(SolutionItems) = preProject
+		01-task.html = 01-task.html
+		02-task.html = 02-task.html
+		03-task.html = 03-task.html
+		04-task.html = 04-task.html
+		05-task.html = 05-task.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JSstarter_lesson4", "JSstarter_lesson4", "{0FFC4E16-B1FB-434F-AD31-94B464F1FBA5}"
+	ProjectSection(SolutionItems) = preProject
+		01-task.html = 01-task.html
+		02-task.html = 02-task.html
+		03-task.html = 03-task.html
+		04-task.html = 04-task.html
+		05-task.html = 05-task.html
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D1A5199C-EEB9-4821-A38C-A0893609443C} = {3EE1FCBE-F00B-4CC1-9949-F678070D2A10}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {406F16EE-D936-452F-8B2A-1F24DCEB93A4}
