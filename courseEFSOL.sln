@@ -51,6 +51,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JSstarter_lesson6", "JSstar
 		05-task.html = 05-task.html
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JSstarter_lesson7", "JSstarter_lesson7", "{E3DD14B7-18F6-46ED-A610-9BD14CBD3573}"
+	ProjectSection(SolutionItems) = preProject
+		01-task.html = 01-task.html
+		02-task.html = 02-task.html
+		03-task.html = 03-task.html
+		04-task.html = 04-task.html
+		05-task.html = 05-task.html
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
